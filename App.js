@@ -49,16 +49,17 @@ function App() {
         <hr/>
       </div>
       <div className = "list">
-        <h3> { work[0]} </h3>
+        <h3> { work[0] } <span onClick={ () => {like_change(like + 1)}}>👍</span>
+        {like}</h3>
         <p>Date: 05/16</p>
         <hr/>
       </div>
       <div className = "list">
-        <h3> { work[1]} </h3>
+        <h3> { work[1] } </h3>
         <p>Date: 05/15</p>
         <hr/>
       </div><div className = "list">
-        <h3> { work[2]} </h3>
+        <h3> { work[2] } </h3>
         <p>Date: 05/14</p>
         <hr/>
       </div>
